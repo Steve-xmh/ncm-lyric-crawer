@@ -12,8 +12,7 @@ futures = "0.3"
 tokio = { version = "1.40", features = ["full"] }
 async-tungstenite = { version = "0.28", features = ["tokio-runtime"] }
 anyhow = "1"
-# amll-lyric = "0.2"
-amll-lyric = { path = "G:/Programs/rust/mrbncm-app/libs/applemusic-like-lyrics/packages/lyric" }
+amll-lyric = "0.2"
 reqwest = "0.12"
 clap = { version = "4", features = ["derive"] }
 prodash = { version = "29", features = ["render-tui", "render-tui-crossterm"] }
